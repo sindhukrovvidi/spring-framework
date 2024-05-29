@@ -4,7 +4,7 @@ import com.springframework.learnspringframework.game.GameRunner;
 import com.springframework.learnspringframework.game.MarioGame;
 import com.springframework.learnspringframework.game.SuperContraGame;
 
-public class AppGamingBasicClass {
+public class App01GamingBasicClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
