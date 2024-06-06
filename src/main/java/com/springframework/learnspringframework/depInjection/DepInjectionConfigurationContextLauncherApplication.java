@@ -49,10 +49,10 @@ class Dependency2 {
 
 @Configuration
 @ComponentScan
-public class DepInjectionLauncherApplication {
+public class DepInjectionConfigurationContextLauncherApplication {
 public static void main(String[] args) {
 		
-		try (var context = new AnnotationConfigApplicationContext(DepInjectionLauncherApplication.class)) {
+		try (var context = new AnnotationConfigApplicationContext(DepInjectionConfigurationContextLauncherApplication.class)) {
 			Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
 			System.out.print(context.getBean(BusinessClass.class));
 			
